@@ -19,6 +19,7 @@
       background: #eee;
       border: 1px solid black;
 
+      transition: 500ms;
       counter-increment: date;
 
       &:hover {
@@ -26,6 +27,7 @@
 
         transform: translate(0, -20px);
         transition: 500ms;
+        
         cursor: pointer;
       }
 
