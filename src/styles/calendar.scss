@@ -19,15 +19,13 @@
       background: #eee;
       border: 1px solid black;
 
-      transition: 500ms;
+      transition: background 500ms, transform 500ms;
       counter-increment: date;
 
       &:hover {
         background: pink;
 
         transform: translate(0, -20px);
-        transition: 500ms;
-        
         cursor: pointer;
       }
 
